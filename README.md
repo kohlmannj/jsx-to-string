@@ -1,21 +1,21 @@
-# jsx-to-string
+# @kohlmannj/jsx-to-string
 
 Parse your React JSX components to string
 
-[![Build Status](https://api.travis-ci.org/grommet/jsx-to-string.svg)](https://travis-ci.org/grommet/jsx-to-string)
+[![Build Status](https://api.travis-ci.org/kohlmannj/jsx-to-string.svg)](https://travis-ci.org/kohlmannj/jsx-to-string)
 
 ### Install
 
 ```sh
-npm install jsx-to-string
+npm install @kohlmannj/jsx-to-string
 ```
 
 ### Usage
 
 ```js
 import React from 'react';
-import jsxToString from 'jsx-to-string';
-// or var jsxToString = require('jsx-to-string');
+import jsxToString from '@kohlmannj/jsx-to-string';
+// or var jsxToString = require('@kohlmannj/jsx-to-string');
 
 let Basic = React.createClass({
   render() {
@@ -41,8 +41,8 @@ console.log(jsxToString(<Basic test1="test" />)); //outputs: <Basic test1="test"
 
 ```js
 import React from 'react';
-import jsxToString from 'jsx-to-string';
-//or var jsxToString = require('jsx-to-string');
+import jsxToString from '@kohlmannj/jsx-to-string';
+//or var jsxToString = require('@kohlmannj/jsx-to-string');
 
 let Basic = React.createClass({
   render() {
@@ -69,8 +69,8 @@ console.log(jsxToString(<Basic onClick={_onClickHandler} />, {
 
 ```js
 import React from 'react';
-import jsxToString from 'jsx-to-string';
-//or var jsxToString = require('jsx-to-string');
+import jsxToString from '@kohlmannj/jsx-to-string';
+//or var jsxToString = require('@kohlmannj/jsx-to-string');
 
 let Basic = React.createClass({
 render() {
@@ -95,8 +95,8 @@ console.log(jsxToString(<Basic onClick={_onClickHandler} />, {
 
 ```js
 import React from 'react';
-import jsxToString from 'jsx-to-string';
-//or var jsxToString = require('jsx-to-string');
+import jsxToString from '@kohlmannj/jsx-to-string';
+//or var jsxToString = require('@kohlmannj/jsx-to-string');
 
 let Basic = React.createClass({
   render() {
@@ -122,8 +122,8 @@ console.log(jsxToString(<Basic onClick={_onClickHandler} />, {
 
 ```js
 import React from 'react';
-import jsxToString from 'jsx-to-string';
-//or var jsxToString = require('jsx-to-string');
+import jsxToString from '@kohlmannj/jsx-to-string';
+//or var jsxToString = require('@kohlmannj/jsx-to-string');
 
 let Basic = React.createClass({
   render() {
@@ -144,8 +144,8 @@ console.log(jsxToString(<Basic test1="ignore" />, {
 
 ```js
 import React from 'react';
-import jsxToString from 'jsx-to-string';
-//or var jsxToString = require('jsx-to-string');
+import jsxToString from '@kohlmannj/jsx-to-string';
+//or var jsxToString = require('@kohlmannj/jsx-to-string');
 
 let Basic = React.createClass({
   render() {
@@ -166,8 +166,8 @@ console.log(jsxToString(<Basic><svg /><img /><p>I am alone</p></Basic>, {
 
 ```js
 import React from 'react';
-import jsxToString from 'jsx-to-string';
-//or var jsxToString = require('jsx-to-string');
+import jsxToString from '@kohlmannj/jsx-to-string';
+//or var jsxToString = require('@kohlmannj/jsx-to-string');
 
 let Basic = React.createClass({
   render() {
@@ -188,8 +188,8 @@ console.log(jsxToString(<Basic test test2={false} test3={true}>, {
 
 ```js
 import React from 'react';
-import jsxToString from 'jsx-to-string';
-//or var jsxToString = require('jsx-to-string');
+import jsxToString from '@kohlmannj/jsx-to-string';
+//or var jsxToString = require('@kohlmannj/jsx-to-string');
 
 let Basic = React.createClass({
   render() {
@@ -206,4 +206,4 @@ console.log(jsxToString(<Basic test1="ignore" />, {
 
 ### License
 
-[MIT](https://github.com/alansouzati/jsx-to-string/blob/master/LICENSE)
+[MIT](https://github.com/kohlmannj/jsx-to-string/blob/master/LICENSE)
