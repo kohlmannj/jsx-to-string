@@ -4,6 +4,12 @@ Parse your React JSX components to string
 
 [![Build Status](https://api.travis-ci.org/kohlmannj/jsx-to-string.svg)](https://travis-ci.org/kohlmannj/jsx-to-string)
 
+### Differences from the Original Package
+This is a fork of [grommet/jsx-to-string](https://github.com/grommet/jsx-to-string) / [`jsx-to-string` on npm](https://www.npmjs.com/package/jsx-to-string). Here are the differences:
+
+- Add indents to multi-line strings ([grommet/jsx-to-string#38](https://github.com/grommet/jsx-to-string/pull/38))
+- Incorporate @hahnbi's change to use double quotes for string values ([grommet/jsx-to-string#36](https://github.com/grommet/jsx-to-string/pull/36))
+
 ### Install
 
 ```sh
