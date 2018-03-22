@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "build": "babel src --out-dir lib --copy-files --loose-mode",
-    "prepublish": "npm run build",
+    "prepare": "npm run build",
     "test": "babel-node ./test/index.js"
   },
   "repository": {
